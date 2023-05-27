@@ -9,22 +9,22 @@ dotenv.config();
 let socket = null; // Declare socket variable
 
 const connectWebSocket = () => {
-    socket = new WebSocket(`wss://${process.env.RPC}?api-key=${process.env.API_KEY}`);
+    socket = new WebSocket(`wss:/${process.env.RPC}?api-key=${process.env.API_KEY}`);
 
     socket.addEventListener('open', () => {
         console.log('WebSocket connection established');
 
         const startTime = new Date();
+
         // subscribe to collection
         const subscribe = {
             "jsonrpc": "2.0",
             "id": 1,
-            "method": "logsSubscribe",
+            "method": "accountSubscribe",
             "params": [
+                "ATDB6H3M3pzS7iTNiBeqxGbxmwx9nJZWLsvHjC8J7QrX",
                 {
-                    "mentions": [process.env.PROGRAM_ID || process.env.ACCOUNT_ID],
-                },
-                {
+                    "encoding": "jsonParsed",
                     "commitment": "finalized"
                 }
             ]
@@ -41,11 +41,10 @@ const connectWebSocket = () => {
             const endTime = new Date();
             const responseTime = endTime - startTime;
 
-            console.log('\n------------------------\n', new Date() + " | ResTime =  " + responseTime + " | " + event.data, '\n------------------------\n');
-
+            console.log('\n------------------------\n', new Date() + " | ResTime = " + responseTime + " | " + event.data, '\n------------------------\n');
             const data = JSON.parse(event.data);
             if (data.id !== 1) {
-                await saveToMongo('solana', process.env.NAME, { timestamp: new Date(), data: data.params });
+                await saveToMongo('solana', 'lily', { time: new Date(), data: data.params });
             }
         });
     });

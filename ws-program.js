@@ -43,7 +43,7 @@ const connectWebSocket = () => {
             console.log('\n------------------------\n', new Date() + " | ResTime = " + responseTime + " | " + event.data, '\n------------------------\n');
             const data = JSON.parse(event.data);
             if (data.id !== 1) {
-                await saveToMongo('solana', process.env.NAME, data);
+                await saveToMongo('solana', process.env.NAME, { timestamp: new Date(), data: data.params });
             }
         });
     });
