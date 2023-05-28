@@ -1,0 +1,62 @@
+Script started on Sun May 28 08:29:07 2023
+[1m[7m%[27m[1m[0m                                                                                                                                                                  [0m[27m[24m[J[7m[32mmetasal:8:29:$[30m[27m[30m[K[?2004hpps[?2004l
+  PID TTY           TIME CMD
+16962 ttys039    0:00.14 -zsh
+52857 ttys039    0:00.10 ssh -i /Users/metasal/Projects/botserver/botserver.pem ubuntu@ec2-54-197-18-176.compute-1.amazonaws.com
+43311 ttys064    0:00.56 /bin/zsh -il
+51111 ttys064    0:00.02 script
+51112 ttys065    0:00.12 /bin/zsh -i
+[1m[7m%[27m[1m[0m                                                                                                                                                                  [0m[27m[24m[J[7m[32mmetasal:9:59:$[30m[27m[30m[K[?2004h[7mnode fetch logs J1S9H3QjnRtBbbuD4HjPV6RpRhwuk4zKbxsnCHuTgh9w > logs/madlads/logs.txt &[27m
+[K[A[14C[27mn[27mo[27md[27me[27m [27mf[27me[27mt[27mc[27mh[27m [27ml[27mo[27mg[27ms[27m [27mJ[27m1[27mS[27m9[27mH[27m3[27mQ[27mj[27mn[27mR[27mt[27mB[27mb[27mb[27mu[27mD[27m4[27mH[27mj[27mP[27mV[27m6[27mR[27mp[27mR[27mh[27mw[27mu[27mk[27m4[27mz[27mK[27mb[27mx[27ms[27mn[27mC[27mH[27mu[27mT[27mg[27mh[27m9[27mw[27m [27m>[27m [27ml[27mo[27mg[27ms[27m/[27mm[27ma[27md[27ml[27ma[27md[27ms[27m/[27ml[27mo[27mg[27ms[27m.[27mt[27mx[27mt[27m [27m&[1B[K[?2004l
+[1] 53017
+[1m[7m%[27m[1m[0m                                                                                                                                                                  [0m[27m[24m[J[7m[32mmetasal:10:01:$[30m[27m[30m[K[?2004hnode:events:505
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Unexpected server response: 429
+    at ClientRequest.<anonymous> (/Users/metasal/Projects/solanadb/node_modules/[4mws[24m/lib/websocket.js:888:7)
+[90m    at ClientRequest.emit (node:events:527:28)[39m
+[90m    at HTTPParser.parserOnIncomingClient (node:_http_client:631:27)[39m
+[90m    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)[39m
+[90m    at TLSSocket.socketOnData (node:_http_client:494:22)[39m
+[90m    at TLSSocket.emit (node:events:527:28)[39m
+[90m    at addChunk (node:internal/streams/readable:315:12)[39m
+[90m    at readableAddChunk (node:internal/streams/readable:289:9)[39m
+[90m    at TLSSocket.Readable.push (node:internal/streams/readable:228:10)[39m
+[90m    at TLSWrap.onStreamRead (node:internal/stream_base_commons:190:23)[39m
+Emitted 'error' event on WebSocket instance at:
+    at emitErrorAndClose (/Users/metasal/Projects/solanadb/node_modules/[4mws[24m/lib/websocket.js:1008:13)
+[90m    at processTicksAndRejections (node:internal/process/task_queues:83:21)[39m
+
+[1]  + exit 1     node fetch logs J1S9H3QjnRtBbbuD4HjPV6RpRhwuk4zKbxsnCHuTgh9w > 
+[0m[27m[24m[J[7m[32mmetasal:10:01:$[30m[27m[30m[Kpps[?2004l
+  PID TTY           TIME CMD
+16962 ttys039    0:00.14 -zsh
+52857 ttys039    0:00.10 ssh -i /Users/metasal/Projects/botserver/botserver.pem ubuntu@ec2-54-197-18-176.compute-1.amazonaws.com
+43311 ttys064    0:00.56 /bin/zsh -il
+51111 ttys064    0:00.02 script
+51112 ttys065    0:00.13 /bin/zsh -i
+[1m[30m[7m%[27m[1m[30m[0m[30m                                                                                                                                                                  [0m[27m[24m[J[7m[32mmetasal:10:01:$[30m[27m[30m[K[?2004hpsnode fetch logs J1S9H3QjnRtBbbuD4HjPV6RpRhwuk4zKbxsnCHuTgh9w > logs/madlads/logs.txt &
+[K[K[?2004l
+[1] 53113
+[1m[7m%[27m[1m[0m                                                                                                                                                                  [0m[27m[24m[J[7m[32mmetasal:10:01:$[30m[27m[30m[K[?2004hnode:events:505
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Unexpected server response: 429
+    at ClientRequest.<anonymous> (/Users/metasal/Projects/solanadb/node_modules/[4mws[24m/lib/websocket.js:888:7)
+[90m    at ClientRequest.emit (node:events:527:28)[39m
+[90m    at HTTPParser.parserOnIncomingClient (node:_http_client:631:27)[39m
+[90m    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)[39m
+[90m    at TLSSocket.socketOnData (node:_http_client:494:22)[39m
+[90m    at TLSSocket.emit (node:events:527:28)[39m
+[90m    at addChunk (node:internal/streams/readable:315:12)[39m
+[90m    at readableAddChunk (node:internal/streams/readable:289:9)[39m
+[90m    at TLSSocket.Readable.push (node:internal/streams/readable:228:10)[39m
+[90m    at TLSWrap.onStreamRead (node:internal/stream_base_commons:190:23)[39m
+Emitted 'error' event on WebSocket instance at:
+    at emitErrorAndClose (/Users/metasal/Projects/solanadb/node_modules/[4mws[24m/lib/websocket.js:1008:13)
+[90m    at processTicksAndRejections (node:internal/process/task_queues:83:21)[39m
+
+[1]  + exit 1     node fetch logs J1S9H3QjnRtBbbuD4HjPV6RpRhwuk4zKbxsnCHuTgh9w > 
+[0m[27m[24m[J[7m[32mmetasal:10:01:$[30m[27m[30m[K
