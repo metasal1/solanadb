@@ -43,7 +43,7 @@ const connectWebSocket = () => {
 
             if (data.id !== 1) {
                 // await saveToMongo('solana', process.env.NAME, { timestamp: new Date(), data: data.params });
-                // await discorder(process.env.DISCORD_TIPLINK_WEBHOOK, { timestamp: new Date(), title: data.params.result.value.pubkey });
+                await discorder(process.env.DISCORD_TIPLINK_WEBHOOK, { timestamp: new Date(), title: data.params.result.value.pubkey });
             }
         });
     });

@@ -1680,4 +1680,31 @@ DOMException [InvalidCharacterError]: Invalid character
 [90m    at async ESMLoader.import (node:internal/modules/esm/loader:385:24)[39m
 [90m    at async loadESM (node:internal/process/esm_loader:88:5)[39m
 [90m    at async handleMainPromise (node:internal/modules/run_main:61:12)[39m
-[1m[7m%[27m[1m[0m                                                                                                                                                                  [0m[27m[24m[J[7m[32mmetasal:7:54:$[30m[27m[30m[K[?2004hggit add
+[1m[7m%[27m[1m[0m                                                                                                                                                                  [0m[27m[24m[J[7m[32mmetasal:7:54:$[30m[27m[30m[K[?2004hggit add .[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                  [0m[27m[24m[J[7m[32mmetasal:9:11:$[30m[27m[30m[K[?2004hggit pull[?2004l
+Already up to date.
+[1m[7m%[27m[1m[0m                                                                                                                                                                  [0m[27m[24m[J[7m[32mmetasal:9:11:$[30m[27m[30m[K[?2004hggit pa  commit -m 'pg rogram. .js'[?2004l
+[main 6cf7c79] program.js
+ 9 files changed, 2787 insertions(+), 1 deletion(-)
+ create mode 100644 me.txt
+ create mode 100644 program.js
+ create mode 100644 pyth.txt
+ create mode 100644 test.js
+ create mode 100644 tiplinkToDiscord.js
+ create mode 100644 trackcol.js
+[1m[7m%[27m[1m[0m                                                                                                                                                                  [0m[27m[24m[J[7m[32mmetasal:9:11:$[30m[27m[30m[K[?2004hggit push[?2004l
+Enumerating objects: 15, done.
+Counting objects:   6% (1/15)Counting objects:  13% (2/15)Counting objects:  20% (3/15)Counting objects:  26% (4/15)Counting objects:  33% (5/15)Counting objects:  40% (6/15)Counting objects:  46% (7/15)Counting objects:  53% (8/15)Counting objects:  60% (9/15)Counting objects:  66% (10/15)Counting objects:  73% (11/15)Counting objects:  80% (12/15)Counting objects:  86% (13/15)Counting objects:  93% (14/15)Counting objects: 100% (15/15)Counting objects: 100% (15/15), done.
+Delta compression using up to 8 threads
+Compressing objects:   9% (1/11)Compressing objects:  18% (2/11)Compressing objects:  27% (3/11)Compressing objects:  36% (4/11)Compressing objects:  45% (5/11)Compressing objects:  54% (6/11)Compressing objects:  63% (7/11)Compressing objects:  72% (8/11)Compressing objects:  81% (9/11)Compressing objects:  90% (10/11)Compressing objects: 100% (11/11)Compressing objects: 100% (11/11), done.
+Writing objects:   9% (1/11)Writing objects:  18% (2/11)Writing objects:  27% (3/11)Writing objects:  36% (4/11)Writing objects:  45% (5/11)Writing objects:  54% (6/11)Writing objects:  63% (7/11)Writing objects:  81% (9/11)Writing objects:  90% (10/11)Writing objects: 100% (11/11)Writing objects: 100% (11/11), 457.31 KiB | 9.94 MiB/s, done.
+Total 11 (delta 5), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/5)[Kremote: Resolving deltas:  20% (1/5)[Kremote: Resolving deltas:  40% (2/5)[Kremote: Resolving deltas:  60% (3/5)[Kremote: Resolving deltas:  80% (4/5)[Kremote: Resolving deltas: 100% (5/5)[Kremote: Resolving deltas: 100% (5/5), completed with 3 local objects.[K
+To https://github.com/metasal1/solanadb.git
+   9c539ad..6cf7c79  main -> main
+[1m[7m%[27m[1m[0m                                                                                                                                                                  [0m[27m[24m[J[7m[32mmetasal:9:11:$[30m[27m[30m[K[?2004hnnode m program [7mipayV3Q9LjwwSLmd7ssPhPTBnWrx1LQyUM8wkEbxJan[27m[43D[27mi[27mp[27ma[27my[27mV[27m3[27mQ[27m9[27mL[27mj[27mw[27mw[27mS[27mL[27mm[27md[27m7[27ms[27ms[27mP[27mh[27mP[27mT[27mB[27mn[27mW[27mr[27mx[27m1[27mL[27mQ[27my[27mU[27mM[27m8[27mw[27mk[27mE[27mb[27mx[27mJ[27ma[27mn [?2004l
+RUNNING started @ Mon May 29 2023 09:12:45 GMT+1000 (Australian Eastern Standard Time)
+WebSocket open @ Mon May 29 2023 09:12:46 GMT+1000 (Australian Eastern Standard Time) | ipayV3Q9LjwwSLmd7ssPhPTBnWrx1LQyUM8wkEbxJan | undefined 
+{"jsonrpc":"2.0","result":13701830,"id":1}
+^C
+[1m[7m%[27m[1m[0m                                                                                                                                                                  [0m[27m[24m[J[7m[32mmetasal:9:12:$[30m[27m[30m[K[?2004h
