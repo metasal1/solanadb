@@ -1707,4 +1707,220 @@ RUNNING started @ Mon May 29 2023 09:12:45 GMT+1000 (Australian Eastern Standard
 WebSocket open @ Mon May 29 2023 09:12:46 GMT+1000 (Australian Eastern Standard Time) | ipayV3Q9LjwwSLmd7ssPhPTBnWrx1LQyUM8wkEbxJan | undefined 
 {"jsonrpc":"2.0","result":13701830,"id":1}
 ^C
-[1m[7m%[27m[1m[0m                                                                                                                                                                  [0m[27m[24m[J[7m[32mmetasal:9:12:$[30m[27m[30m[K[?2004h
+[1m[7m%[27m[1m[0m                                                                                                                                                                  [0m[27m[24m[J[7m[32mmetasal:9:12:$[30m[27m[30m[K[?2004hggit add .[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                  [0m[27m[24m[J[7m[32mmetasal:9:13:$[30m[27m[30m[K[?2004hgit add .[9Dnode program ipayV3Q9LjwwSLmd7ssPhPTBnWrx1LQyUM8wkEbxJan [57Dgit push                                                [48Dcommit -m 'program.js'[?2004l
+[main 93eb4be] program.js
+ 2 files changed, 29 insertions(+), 2 deletions(-)
+[1m[7m%[27m[1m[0m                                                                                                                                                                  [0m[27m[24m[J[7m[32mmetasal:9:13:$[30m[27m[30m[K[?2004hgit commit -m 'program.js'[22Dadd .                 [17D[9Dnode program ipayV3Q9LjwwSLmd7ssPhPTBnWrx1LQyUM8wkEbxJan [57Dgit push                                                [48D[?2004l
+Enumerating objects: 7, done.
+Counting objects:  14% (1/7)Counting objects:  28% (2/7)Counting objects:  42% (3/7)Counting objects:  57% (4/7)Counting objects:  71% (5/7)Counting objects:  85% (6/7)Counting objects: 100% (7/7)Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects:  25% (1/4)Compressing objects:  50% (2/4)Compressing objects:  75% (3/4)Compressing objects: 100% (4/4)Compressing objects: 100% (4/4), done.
+Writing objects:  25% (1/4)Writing objects:  50% (2/4)Writing objects:  75% (3/4)Writing objects: 100% (4/4)Writing objects: 100% (4/4), 1.04 KiB | 1.04 MiB/s, done.
+Total 4 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/3)[Kremote: Resolving deltas:  33% (1/3)[Kremote: Resolving deltas:  66% (2/3)[Kremote: Resolving deltas: 100% (3/3)[Kremote: Resolving deltas: 100% (3/3), completed with 3 local objects.[K
+To https://github.com/metasal1/solanadb.git
+   6cf7c79..93eb4be  main -> main
+[1m[7m%[27m[1m[0m                                                                                                                                                                  [0m[27m[24m[J[7m[32mmetasal:9:13:$[30m[27m[30m[K[?2004hnnode program [7mipayV3Q9LjwwSLmd7ssPhPTBnWrx1LQyUM8wkEbxJan[27m[43D[27mi[27mp[27ma[27my[27mV[27m3[27mQ[27m9[27mL[27mj[27mw[27mw[27mS[27mL[27mm[27md[27m7[27ms[27ms[27mP[27mh[27mP[27mT[27mB[27mn[27mW[27mr[27mx[27m1[27mL[27mQ[27my[27mU[27mM[27m8[27mw[27mk[27mE[27mb[27mx[27mJ[27ma[27mn[?2004l
+RUNNING started @ Mon May 29 2023 09:13:48 GMT+1000 (Australian Eastern Standard Time)
+WebSocket open @ Mon May 29 2023 09:13:49 GMT+1000 (Australian Eastern Standard Time) | ipayV3Q9LjwwSLmd7ssPhPTBnWrx1LQyUM8wkEbxJan | undefined 
+{"jsonrpc":"2.0","result":19836672,"id":1}
+^C
+[1m[7m%[27m[1m[0m                                                                                                                                                                  [0m[27m[24m[J[7m[32mmetasal:9:14:$[30m[27m[30m[K[?2004hnode program ipayV3Q9LjwwSLmd7ssPhPTBnWrx1LQyUM8wkEbxJan[?2004l
+RUNNING started @ Mon May 29 2023 09:35:20 GMT+1000 (Australian Eastern Standard Time)
+WebSocket open @ Mon May 29 2023 09:35:21 GMT+1000 (Australian Eastern Standard Time) | ipayV3Q9LjwwSLmd7ssPhPTBnWrx1LQyUM8wkEbxJan
+{"jsonrpc":"2.0","result":19869803,"id":1}
+^C
+[1m[7m%[27m[1m[0m                                                                                                                                                                  [0m[27m[24m[J[7m[32mmetasal:9:36:$[30m[27m[30m[K[?2004hnnode account 
+[7mconst account = {[27m[K
+[7m    "jsonrpc": "2.0",[27m[K
+[7m    "id": 1,[27m[K
+[7m    "method": "accountSubscribe",[27m[K
+[7m    "params": [[27m[K
+[7m        process.argv[3],[27m[K
+[7m        {[27m[K
+[7m            "encoding": "jsonParsed",[27m[K
+[7m            "commitment": "finalized"[27m[K
+[7m        }[27m[K
+[7m    ][27m[K
+[7m}[27m[K[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                  [0m[27m[24m[J[7m[32mmetasal:9:36:$[30m[27m[30m[K[?2004hnnode account [7mipayV3Q9LjwwSLmd7ssPhPTBnWrx1LQyUM8wkEbxJan[27m[43D[27mi[27mp[27ma[27my[27mV[27m3[27mQ[27m9[27mL[27mj[27mw[27mw[27mS[27mL[27mm[27md[27m7[27ms[27ms[27mP[27mh[27mP[27mT[27mB[27mn[27mW[27mr[27mx[27m1[27mL[27mQ[27my[27mU[27mM[27m8[27mw[27mk[27mE[27mb[27mx[27mJ[27ma[27mn[?2004l
+RUNNING started @ Mon May 29 2023 09:36:28 GMT+1000 (Australian Eastern Standard Time)
+WebSocket open @ Mon May 29 2023 09:36:29 GMT+1000 (Australian Eastern Standard Time) | ipayV3Q9LjwwSLmd7ssPhPTBnWrx1LQyUM8wkEbxJan
+file:///Users/metasal/Projects/solanadb/account.js:35
+        socket.send(JSON.stringify(program));
+                                   ^
+
+ReferenceError: program is not defined
+    at WebSocket.<anonymous> (file:///Users/metasal/Projects/solanadb/account.js:35:36)
+    at callListener (/Users/metasal/Projects/solanadb/node_modules/[4mws[24m/lib/event-target.js:290:14)
+    at WebSocket.onOpen (/Users/metasal/Projects/solanadb/node_modules/[4mws[24m/lib/event-target.js:237:9)
+[90m    at WebSocket.emit (node:events:527:28)[39m
+    at WebSocket.setSocket (/Users/metasal/Projects/solanadb/node_modules/[4mws[24m/lib/websocket.js:237:10)
+    at ClientRequest.<anonymous> (/Users/metasal/Projects/solanadb/node_modules/[4mws[24m/lib/websocket.js:985:15)
+[90m    at ClientRequest.emit (node:events:527:28)[39m
+[90m    at TLSSocket.socketOnData (node:_http_client:534:11)[39m
+[90m    at TLSSocket.emit (node:events:527:28)[39m
+[90m    at addChunk (node:internal/streams/readable:315:12)[39m
+[1m[7m%[27m[1m[0m                                                                                                                                                                  [0m[27m[24m[J[7m[32mmetasal:9:36:$[30m[27m[30m[K[?2004hnode account ipayV3Q9LjwwSLmd7ssPhPTBnWrx1LQyUM8wkEbxJan[?2004l
+RUNNING started @ Mon May 29 2023 09:36:45 GMT+1000 (Australian Eastern Standard Time)
+WebSocket open @ Mon May 29 2023 09:36:46 GMT+1000 (Australian Eastern Standard Time) | ipayV3Q9LjwwSLmd7ssPhPTBnWrx1LQyUM8wkEbxJan
+{"jsonrpc":"2.0","result":13726849,"id":1}
+WebSocket closed
+WebSocket open @ Mon May 29 2023 09:37:47 GMT+1000 (Australian Eastern Standard Time) | ipayV3Q9LjwwSLmd7ssPhPTBnWrx1LQyUM8wkEbxJan
+{"jsonrpc":"2.0","result":19874309,"id":1}
+WebSocket closed
+WebSocket open @ Mon May 29 2023 09:38:48 GMT+1000 (Australian Eastern Standard Time) | ipayV3Q9LjwwSLmd7ssPhPTBnWrx1LQyUM8wkEbxJan
+{"jsonrpc":"2.0","result":87756837,"id":1}
+WebSocket closed
+WebSocket open @ Mon May 29 2023 09:39:51 GMT+1000 (Australian Eastern Standard Time) | ipayV3Q9LjwwSLmd7ssPhPTBnWrx1LQyUM8wkEbxJan
+{"jsonrpc":"2.0","result":87758840,"id":1}
+WebSocket closed
+WebSocket open @ Mon May 29 2023 09:40:52 GMT+1000 (Australian Eastern Standard Time) | ipayV3Q9LjwwSLmd7ssPhPTBnWrx1LQyUM8wkEbxJan
+{"jsonrpc":"2.0","result":19879120,"id":1}
+WebSocket closed
+WebSocket open @ Mon May 29 2023 09:41:55 GMT+1000 (Australian Eastern Standard Time) | ipayV3Q9LjwwSLmd7ssPhPTBnWrx1LQyUM8wkEbxJan
+{"jsonrpc":"2.0","result":13732758,"id":1}
+{"jsonrpc":"2.0","method":"accountNotification","params":{"result":{"context":{"slot":196521958},"value":{"lamports":3449735000,"data":["","base64"],"owner":"11111111111111111111111111111111","executable":false,"rentEpoch":0}},"subscription":13732758}}
+Posted to Discord successfully: {"embeds": ["0"]}
+WebSocket closed
+WebSocket open @ Mon May 29 2023 09:42:59 GMT+1000 (Australian Eastern Standard Time) | ipayV3Q9LjwwSLmd7ssPhPTBnWrx1LQyUM8wkEbxJan
+{"jsonrpc":"2.0","result":87762349,"id":1}
+{"jsonrpc":"2.0","method":"accountNotification","params":{"result":{"context":{"slot":196522102},"value":{"lamports":3449725000,"data":["","base64"],"owner":"11111111111111111111111111111111","executable":false,"rentEpoch":0}},"subscription":87762349}}
+Posted to Discord successfully: {"embeds": ["0"]}
+WebSocket closed
+WebSocket open @ Mon May 29 2023 09:44:07 GMT+1000 (Australian Eastern Standard Time) | ipayV3Q9LjwwSLmd7ssPhPTBnWrx1LQyUM8wkEbxJan
+{"jsonrpc":"2.0","result":13734965,"id":1}
+^C
+[1m[7m%[27m[1m[0m                                                                                                                                                                  [0m[27m[24m[J[7m[32mmetasal:9:44:$[30m[27m[30m[K[?2004h[7mipayV3Q9LjwwSLmd7ssPhPTBnWrx1LQyUM8wkEbxJan[27m[43D[27mi[27mp[27ma[27my[27mV[27m3[27mQ[27m9[27mL[27mj[27mw[27mw[27mS[27mL[27mm[27md[27m7[27ms[27ms[27mP[27mh[27mP[27mT[27mB[27mn[27mW[27mr[27mx[27m1[27mL[27mQ[27my[27mU[27mM[27m8[27mw[27mk[27mE[27mb[27mx[27mJ[27ma[27mn[?2004l
+zsh: command not found: ipayV3Q9LjwwSLmd7ssPhPTBnWrx1LQyUM8wkEbxJan
+[1m[7m%[27m[1m[0m                                                                                                                                                                  [0m[27m[24m[J[7m[32mmetasal:9:46:$[30m[27m[30m[K[?2004hnnode logs [7mconst logs = {[27m
+[7m    "jsonrpc": "2.0",[27m[K
+[7m    "id": 1,[27m[K
+[7m    "method": "logsSubscribe",[27m[K
+[7m    "params": [[27m[K
+[7m        {[27m[K
+[7m            "mentions": [process.argv[3]],[27m[K
+[7m        },[27m[K
+[7m        {[27m[K
+[7m            "commitment": "finalized"[27m[K
+[7m        }[27m[K
+[7m    ][27m[K
+[7m}[27m[K[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                  [0m[27m[24m[J[7m[32mmetasal:9:46:$[30m[27m[30m[K[?2004hipayV3Q9LjwwSLmd7ssPhPTBnWrx1LQyUM8wkEbxJan[43Dnode account ipayV3Q9LjwwSLmd7ssPhPTBnWrx1LQyUM8wkEbxJan[56D[5Claccount ipayV3Q9LjwwSLmd7ssPhPTBnWrx1LQyUM8wkEbxJan[51Doaccount ipayV3Q9LjwwSLmd7ssPhPTBnWrx1LQyUM8wkEbxJan[51Dgaccount ipayV3Q9LjwwSLmd7ssPhPTBnWrx1LQyUM8wkEbxJan[51Dsaccount ipayV3Q9LjwwSLmd7ssPhPTBnWrx1LQyUM8wkEbxJan[51D account ipayV3Q9LjwwSLmd7ssPhPTBnWrx1LQyUM8wkEbxJan[51D[1C[1C[1C[1C[1C[1C[1C[P[44C [45D[P[44C [45D[P[44C [45D[P[44C [45D[P[44C [45D[P[44C [45D[P[44C [45D[P[43C [45D[?2004l
+RUNNING started @ Mon May 29 2023 09:46:29 GMT+1000 (Australian Eastern Standard Time)
+WebSocket open @ Mon May 29 2023 09:46:31 GMT+1000 (Australian Eastern Standard Time) | ipayV3Q9LjwwSLmd7ssPhPTBnWrx1LQyUM8wkEbxJan
+{"jsonrpc":"2.0","result":87767257,"id":1}
+WebSocket closed
+WebSocket open @ Mon May 29 2023 09:47:32 GMT+1000 (Australian Eastern Standard Time) | ipayV3Q9LjwwSLmd7ssPhPTBnWrx1LQyUM8wkEbxJan
+{"jsonrpc":"2.0","result":87767260,"id":1}
+WebSocket closed
+WebSocket open @ Mon May 29 2023 09:48:33 GMT+1000 (Australian Eastern Standard Time) | ipayV3Q9LjwwSLmd7ssPhPTBnWrx1LQyUM8wkEbxJan
+{"jsonrpc":"2.0","result":19890641,"id":1}
+{"jsonrpc":"2.0","method":"logsNotification","params":{"result":{"context":{"slot":196522894},"value":{"signature":"4m8roiZZjRPArH3VTDBjYaFa2LJdiY9YX4ydbPxEyTY77MKfDB1oS18v3NNYiMYqJvsaReB5n7HaYSk5UzGCKw8u","err":null,"logs":["Program BGUMAp9Gq7iTEuizy4pqaxsTyUCBK68MDfK752saRPUY invoke [1]","Program log: Instruction: Transfer","Program noopb9bkMVfRPU8AsbpTUg8AQkHtKwMYZiFUjNRtMmV invoke [2]","Program noopb9bkMVfRPU8AsbpTUg8AQkHtKwMYZiFUjNRtMmV consumed 39 of 186521 compute units","Program noopb9bkMVfRPU8AsbpTUg8AQkHtKwMYZiFUjNRtMmV success","Program cmtDvXumGCrqC1Age74AVPhSRVXJMd8PJS91L8KbNCK invoke [2]","Program log: Instruction: ReplaceLeaf","Program log: Attempting to fill in proof","Program consumption: 170484 units remaining","Program log: Active Index: 6","Program log: Rightmost Index: 108772","Program log: Buffer Size: 64","Program log: Leaf Index: 55577","Program log: Fast-forwarding proof, starting index 6","Program consumption: 167445 units remaining","Program consumption: 167341 units remaining","Program noopb9bkMVfRPU8AsbpTUg8AQkHtKwMYZiFUjNRtMmV invoke [3]","Program noopb9bkMVfRPU8AsbpTUg8AQkHtKwMYZiFUjNRtMmV consumed 39 of 157637 compute units","Program noopb9bkMVfRPU8AsbpTUg8AQkHtKwMYZiFUjNRtMmV success","Program cmtDvXumGCrqC1Age74AVPhSRVXJMd8PJS91L8KbNCK consumed 19265 of 176393 compute units","Program cmtDvXumGCrqC1Age74AVPhSRVXJMd8PJS91L8KbNCK success","Program BGUMAp9Gq7iTEuizy4pqaxsTyUCBK68MDfK752saRPUY consumed 43952 of 200000 compute units","Program BGUMAp9Gq7iTEuizy4pqaxsTyUCBK68MDfK752saRPUY success"]}},"subscription":19890641}}
+{"jsonrpc":"2.0","method":"logsNotification","params":{"result":{"context":{"slot":196522894},"value":{"signature":"4m8roiZZjRPArH3VTDBjYaFa2LJdiY9YX4ydbPxEyTY77MKfDB1oS18v3NNYiMYqJvsaReB5n7HaYSk5UzGCKw8u","err":null,"logs":["Program BGUMAp9Gq7iTEuizy4pqaxsTyUCBK68MDfK752saRPUY invoke [1]","Program log: Instruction: Transfer","Program noopb9bkMVfRPU8AsbpTUg8AQkHtKwMYZiFUjNRtMmV invoke [2]","Program noopb9bkMVfRPU8AsbpTUg8AQkHtKwMYZiFUjNRtMmV consumed 39 of 186521 compute units","Program noopb9bkMVfRPU8AsbpTUg8AQkHtKwMYZiFUjNRtMmV success","Program cmtDvXumGCrqC1Age74AVPhSRVXJMd8PJS91L8KbNCK invoke [2]","Program log: Instruction: ReplaceLeaf","Program log: Attempting to fill in proof","Program consumption: 170484 units remaining","Program log: Active Index: 6","Program log: Rightmost Index: 108772","Program log: Buffer Size: 64","Program log: Leaf Index: 55577","Program log: Fast-forwarding proof, starting index 6","Program consumption: 167445 units remaining","Program consumption: 167341 units remaining","Program noopb9bkMVfRPU8AsbpTUg8AQkHtKwMYZiFUjNRtMmV invoke [3]","Program noopb9bkMVfRPU8AsbpTUg8AQkHtKwMYZiFUjNRtMmV consumed 39 of 157637 compute units","Program noopb9bkMVfRPU8AsbpTUg8AQkHtKwMYZiFUjNRtMmV success","Program cmtDvXumGCrqC1Age74AVPhSRVXJMd8PJS91L8KbNCK consumed 19265 of 176393 compute units","Program cmtDvXumGCrqC1Age74AVPhSRVXJMd8PJS91L8KbNCK success","Program BGUMAp9Gq7iTEuizy4pqaxsTyUCBK68MDfK752saRPUY consumed 43952 of 200000 compute units","Program BGUMAp9Gq7iTEuizy4pqaxsTyUCBK68MDfK752saRPUY success"]}},"subscription":19890641}}
+Posted to Discord successfully: {"embeds": ["0"]}
+Posted to Discord successfully: {"embeds": ["0"]}
+WebSocket closed
+WebSocket open @ Mon May 29 2023 09:50:09 GMT+1000 (Australian Eastern Standard Time) | ipayV3Q9LjwwSLmd7ssPhPTBnWrx1LQyUM8wkEbxJan
+{"jsonrpc":"2.0","result":87769262,"id":1}
+WebSocket closed
+WebSocket open @ Mon May 29 2023 09:51:11 GMT+1000 (Australian Eastern Standard Time) | ipayV3Q9LjwwSLmd7ssPhPTBnWrx1LQyUM8wkEbxJan
+{"jsonrpc":"2.0","result":13740982,"id":1}
+WebSocket closed
+WebSocket open @ Mon May 29 2023 09:52:15 GMT+1000 (Australian Eastern Standard Time) | ipayV3Q9LjwwSLmd7ssPhPTBnWrx1LQyUM8wkEbxJan
+{"jsonrpc":"2.0","result":87770963,"id":1}
+WebSocket closed
+WebSocket open @ Mon May 29 2023 09:53:17 GMT+1000 (Australian Eastern Standard Time) | ipayV3Q9LjwwSLmd7ssPhPTBnWrx1LQyUM8wkEbxJan
+{"jsonrpc":"2.0","result":87771164,"id":1}
+WebSocket closed
+WebSocket open @ Mon May 29 2023 09:54:18 GMT+1000 (Australian Eastern Standard Time) | ipayV3Q9LjwwSLmd7ssPhPTBnWrx1LQyUM8wkEbxJan
+{"jsonrpc":"2.0","result":13744485,"id":1}
+WebSocket closed
+WebSocket open @ Mon May 29 2023 09:55:19 GMT+1000 (Australian Eastern Standard Time) | ipayV3Q9LjwwSLmd7ssPhPTBnWrx1LQyUM8wkEbxJan
+{"jsonrpc":"2.0","result":87773065,"id":1}
+WebSocket closed
+WebSocket open @ Mon May 29 2023 09:56:21 GMT+1000 (Australian Eastern Standard Time) | ipayV3Q9LjwwSLmd7ssPhPTBnWrx1LQyUM8wkEbxJan
+{"jsonrpc":"2.0","result":19902447,"id":1}
+WebSocket closed
+WebSocket open @ Mon May 29 2023 09:57:23 GMT+1000 (Australian Eastern Standard Time) | ipayV3Q9LjwwSLmd7ssPhPTBnWrx1LQyUM8wkEbxJan
+{"jsonrpc":"2.0","result":13745387,"id":1}
+WebSocket closed
+WebSocket open @ Mon May 29 2023 09:58:24 GMT+1000 (Australian Eastern Standard Time) | ipayV3Q9LjwwSLmd7ssPhPTBnWrx1LQyUM8wkEbxJan
+{"jsonrpc":"2.0","result":87776668,"id":1}
+WebSocket closed
+WebSocket open @ Mon May 29 2023 09:59:26 GMT+1000 (Australian Eastern Standard Time) | ipayV3Q9LjwwSLmd7ssPhPTBnWrx1LQyUM8wkEbxJan
+{"jsonrpc":"2.0","result":19906051,"id":1}
+WebSocket closed
+WebSocket open @ Mon May 29 2023 10:00:27 GMT+1000 (Australian Eastern Standard Time) | ipayV3Q9LjwwSLmd7ssPhPTBnWrx1LQyUM8wkEbxJan
+{"jsonrpc":"2.0","result":13746589,"id":1}
+WebSocket closed
+WebSocket open @ Mon May 29 2023 10:01:29 GMT+1000 (Australian Eastern Standard Time) | ipayV3Q9LjwwSLmd7ssPhPTBnWrx1LQyUM8wkEbxJan
+{"jsonrpc":"2.0","result":87780871,"id":1}
+WebSocket closed
+WebSocket open @ Mon May 29 2023 10:02:32 GMT+1000 (Australian Eastern Standard Time) | ipayV3Q9LjwwSLmd7ssPhPTBnWrx1LQyUM8wkEbxJan
+{"jsonrpc":"2.0","result":87782173,"id":1}
+WebSocket closed
+WebSocket open @ Mon May 29 2023 10:03:33 GMT+1000 (Australian Eastern Standard Time) | ipayV3Q9LjwwSLmd7ssPhPTBnWrx1LQyUM8wkEbxJan
+{"jsonrpc":"2.0","result":87782874,"id":1}
+WebSocket closed
+WebSocket open @ Mon May 29 2023 10:04:35 GMT+1000 (Australian Eastern Standard Time) | ipayV3Q9LjwwSLmd7ssPhPTBnWrx1LQyUM8wkEbxJan
+{"jsonrpc":"2.0","result":87783675,"id":1}
+WebSocket closed
+WebSocket open @ Mon May 29 2023 10:05:37 GMT+1000 (Australian Eastern Standard Time) | ipayV3Q9LjwwSLmd7ssPhPTBnWrx1LQyUM8wkEbxJan
+{"jsonrpc":"2.0","result":19914157,"id":1}
+WebSocket closed
+WebSocket open @ Mon May 29 2023 10:06:39 GMT+1000 (Australian Eastern Standard Time) | ipayV3Q9LjwwSLmd7ssPhPTBnWrx1LQyUM8wkEbxJan
+{"jsonrpc":"2.0","result":13757297,"id":1}
+WebSocket closed
+WebSocket open @ Mon May 29 2023 10:07:41 GMT+1000 (Australian Eastern Standard Time) | ipayV3Q9LjwwSLmd7ssPhPTBnWrx1LQyUM8wkEbxJan
+{"jsonrpc":"2.0","result":87787279,"id":1}
+WebSocket closed
+WebSocket open @ Mon May 29 2023 10:08:42 GMT+1000 (Australian Eastern Standard Time) | ipayV3Q9LjwwSLmd7ssPhPTBnWrx1LQyUM8wkEbxJan
+{"jsonrpc":"2.0","result":19918459,"id":1}
+WebSocket closed
+WebSocket open @ Mon May 29 2023 10:09:44 GMT+1000 (Australian Eastern Standard Time) | ipayV3Q9LjwwSLmd7ssPhPTBnWrx1LQyUM8wkEbxJan
+{"jsonrpc":"2.0","result":87789990,"id":1}
+WebSocket closed
+WebSocket open @ Mon May 29 2023 10:10:45 GMT+1000 (Australian Eastern Standard Time) | ipayV3Q9LjwwSLmd7ssPhPTBnWrx1LQyUM8wkEbxJan
+{"jsonrpc":"2.0","result":87791481,"id":1}
+WebSocket closed
+WebSocket open @ Mon May 29 2023 10:11:47 GMT+1000 (Australian Eastern Standard Time) | ipayV3Q9LjwwSLmd7ssPhPTBnWrx1LQyUM8wkEbxJan
+{"jsonrpc":"2.0","result":13762600,"id":1}
+WebSocket closed
+WebSocket open @ Mon May 29 2023 10:12:49 GMT+1000 (Australian Eastern Standard Time) | ipayV3Q9LjwwSLmd7ssPhPTBnWrx1LQyUM8wkEbxJan
+{"jsonrpc":"2.0","result":19924165,"id":1}
+WebSocket closed
+WebSocket open @ Mon May 29 2023 10:13:51 GMT+1000 (Australian Eastern Standard Time) | ipayV3Q9LjwwSLmd7ssPhPTBnWrx1LQyUM8wkEbxJan
+{"jsonrpc":"2.0","result":87795285,"id":1}
+WebSocket closed
+WebSocket open @ Mon May 29 2023 10:14:52 GMT+1000 (Australian Eastern Standard Time) | ipayV3Q9LjwwSLmd7ssPhPTBnWrx1LQyUM8wkEbxJan
+{"jsonrpc":"2.0","result":13764802,"id":1}
+WebSocket closed
+WebSocket open @ Mon May 29 2023 10:15:53 GMT+1000 (Australian Eastern Standard Time) | ipayV3Q9LjwwSLmd7ssPhPTBnWrx1LQyUM8wkEbxJan
+{"jsonrpc":"2.0","result":19928367,"id":1}
+WebSocket closed
+WebSocket open @ Mon May 29 2023 10:16:54 GMT+1000 (Australian Eastern Standard Time) | ipayV3Q9LjwwSLmd7ssPhPTBnWrx1LQyUM8wkEbxJan
+{"jsonrpc":"2.0","result":87801188,"id":1}
+WebSocket closed
+WebSocket open @ Mon May 29 2023 10:17:55 GMT+1000 (Australian Eastern Standard Time) | ipayV3Q9LjwwSLmd7ssPhPTBnWrx1LQyUM8wkEbxJan
+{"jsonrpc":"2.0","result":19931768,"id":1}
+WebSocket closed
+WebSocket open @ Mon May 29 2023 10:18:56 GMT+1000 (Australian Eastern Standard Time) | ipayV3Q9LjwwSLmd7ssPhPTBnWrx1LQyUM8wkEbxJan
+{"jsonrpc":"2.0","result":19932469,"id":1}
+WebSocket closed
+WebSocket open @ Mon May 29 2023 10:19:57 GMT+1000 (Australian Eastern Standard Time) | ipayV3Q9LjwwSLmd7ssPhPTBnWrx1LQyUM8wkEbxJan
+{"jsonrpc":"2.0","result":19933070,"id":1}
+^N^^C^C
+[1m[7m%[27m[1m[0m                                                                                                                                                                  [0m[27m[24m[J[7m[32mmetasal:10:20:$[30m[27m[30m[K[?2004hnnpm i @solana/web3.js[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                  [0m[27m[24m[J[7m[32mmetasal:10:20:$[30m[27m[30m[K[?2004h[7m^[[27m[200~$ npm install --save @solana/web3.js~[?2004l
+zsh: bad pattern: ^[[200~$
+[1m[7m%[27m[1m[0m                                                                                                                                                                  [0m[27m[24m[J[7m[32mmetasal:10:20:$[30m[27m[30m[K[?2004h[7m^[[27m[200~$ npm install --save @solana/web3.js~[44D[27mn[27mode logs ipayV3Q9LjwwSLmd7ssPhPTBnWrx1LQyUM8wkEbxJan[53D[7m^[7m[[27m[200~$ npm install --save @solana/web3.js~         [9D[44D[27m [27m                                           [44Dnnpm i @solana/web4.  3.js[?2004l
+[?25l([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠼ reify: [32;40mtiming[0m [35marborist:ctor[0m Completed in 0ms[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree:solanadb: [7msill[0m [35midealTree[0m buildDeps[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 4296ms[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ reify:@solana/web3.js: [7msill[0m [35maudit[0m bulk request {[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ reify:@solana/web3.js: [7msill[0m [35maudit[0m bulk request {[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ reify:@solana/web3.js: [7msill[0m [35maudit[0m bulk request {[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ reify:@solana/web3.js: [7msill[0m [35maudit[0m bulk request {[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ reify:@solana/web3.js: [7msill[0m [35maudit[0m bulk request {[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@solana/web3.js: [7msill[0m [35maudit[0m bulk request {[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@solana/web3.js: [7msill[0m [35maudit[0m bulk request {[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@solana/web3.js: [7msill[0m [35maudit[0m bulk request {[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@solana/web3.js: [7msill[0m [35maudit[0m bulk request {[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@solana/web3.js: [7msill[0m [35maudit[0m bulk request {[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@solana/web3.js: [7msill[0m [35maudit[0m bulk request {[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@solana/web3.js: [7msill[0m [35maudit[0m bulk request {[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@solana/web3.js: [7msill[0m [35maudit[0m bulk request {[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@solana/web3.js: [7msill[0m [35maudit[0m bulk request {[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@solana/web3.js: [7msill[0m [35maudit[0m bulk request {[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@solana/web3.js: [7msill[0m [35maudit[0m bulk request {[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@solana/web3.js: [7msill[0m [35maudit[0m bulk request {[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@solana/web3.js: [7msill[0m [35maudit[0m bulk request {[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@solana/web3.js: [7msill[0m [35maudit[0m bulk request {[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@solana/web3.js: [7msill[0m [35maudit[0m bulk request {[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@solana/web3.js: [7msill[0m [35maudit[0m bulk request {[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@solana/web3.js: [7msill[0m [35maudit[0m bulk request {[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@solana/web3.js: [7msill[0m [35maudit[0m bulk request {[0m[K([107;97m##################[0m) ⠹ reify:@solana/web3.js: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/@solana/web3.js/-/web3.js-1.77.2.tgz 1162ms (cache miss)[0m[K[K[?25h
+changed 1 package, and audited 78 packages in 6s
+
+9 packages are looking for funding
+  run `npm fund` for details
+
+found [32m[1m0[22m[39m vulnerabilities
+[1m[7m%[27m[1m[0m                                                                                                                                                                  [0m[27m[24m[J[7m[32mmetasal:10:21:$[30m[27m[30m[K[?2004h

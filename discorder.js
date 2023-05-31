@@ -2,23 +2,41 @@ import dotenv from 'dotenv';
 import fetch from 'node-fetch';
 dotenv.config();
 
-
-// just add the webhook url and data to post
-
 export default async function postToDiscord(webhook, data) {
+
+
     try {
 
-        var payload = {
-            "embeds": [
+        const embed = {
+            title: `${data.collection} | Sales in the last hour`,
+            // description: 'This is an example embed with styling.',
+            color: 0xff0000, // Hex color code (red)
+            fields: [
                 {
-                    "title": data?.title,
-                    "image": { "url": data?.image },
-                    "description": data?.description,
-                    "url": data?.url,
-                    "color": data?.color
+                    name: 'Sales',
+                    value: data.count,
+                    inline: true,
+                },
+                {
+                    name: 'Average Price',
+                    value: `${data.average.toFixed(2)} SOL`,
+                    inline: true,
+                },
+                {
+                    name: 'Volume',
+                    value: `${data.volume.toFixed(2)} SOL`,
+                    inline: true,
                 }
-            ]
-        }
+            ],
+            footer: {
+                text: 'On-chain data brought to you by nftmate_',
+            },
+        };
+
+        const payload = {
+            embeds: [embed],
+        };
+        console.log(payload)
         const options = {
             method: 'POST',
             headers: {
@@ -26,8 +44,6 @@ export default async function postToDiscord(webhook, data) {
             },
             body: JSON.stringify(payload),
         }
-
-
 
         const req = await fetch(webhook, options);
         const res = await req.text()
@@ -37,5 +53,3 @@ export default async function postToDiscord(webhook, data) {
     }
 }
 
-// Usage example
-// postToDiscord({ title: 'test title', imageUrl: 'https://i.imgur.com/4M34hi2.png', description: 'test description' })

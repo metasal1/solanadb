@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        fetch('http://localhost:3000/api/pdf', {
+            headers: {
+                'Authorization': 'Bearer your-token',
+                'api-key': 'salim'
+            }
+        })
+            .then(response => {
+                if (response.ok) {
+                    // File retrieval was successful
+                    return response.blob(); // Assuming the response is a file
+                } else {
+                    throw new Error('File retrieval failed.');
+                }
+            })
+            .then(fileBlob => {
+                // Process the retrieved file
+                // Example: Create a download link for the file
+                const downloadLink = document.createElement('a');
+                downloadLink.href = URL.createObjectURL(fileBlob);
+                // downloadLink.download = 'filename.extension';
+                downloadLink.click();
+            })
+            .catch(error => {
+                // Handle any errors that occurred during the file retrieval
+                console.error(error);
+            });
+    </script>
+</body>
+
+</html>
