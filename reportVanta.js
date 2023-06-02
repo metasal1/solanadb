@@ -23,7 +23,7 @@ if (cron === 'now') {
 const job = new CronJob(cron, async () => {
 
     // console.log(new Date().toLocaleString())
-    const collection = 'Okay Bears'
+    const collection = 'Vanta'
     const lastHourObjectId = ObjectId.createFromTime(Math.floor(Date.now() / 1000) - 3600);
 
     const query = { collection: collection, _id: { $gte: lastHourObjectId } }

@@ -8,7 +8,7 @@ export default async function postToDiscord(webhook, data) {
     try {
 
         const embed = {
-            title: `${data.collection} | Sales in the last hour`,
+            title: `${data.collection} had ${data.count} sales last hour`,
             // description: 'This is an example embed with styling.',
             color: 0xff0000, // Hex color code (red)
             fields: [
@@ -36,7 +36,7 @@ export default async function postToDiscord(webhook, data) {
         const payload = {
             embeds: [embed],
         };
-        console.log(payload)
+        // console.log(payload)
         const options = {
             method: 'POST',
             headers: {

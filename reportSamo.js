@@ -14,16 +14,20 @@ const client = new MongoClient(uri, {
     }
 });
 
-
 // every hour
-const job = new CronJob('0 * * * *', async () => {
+var cron = process.argv[2] || '0 * * * *'
 
-    console.log(new Date().toLocaleString())
+if (cron === 'now') {
+    cron = '0/5 * * * * *'
+}
+const job = new CronJob(cron, async () => {
+
+    // console.log(new Date().toLocaleString())
     const collection = 'Samo'
     const lastHourObjectId = ObjectId.createFromTime(Math.floor(Date.now() / 1000) - 3600);
 
     const query = { collection: collection, _id: { $gte: lastHourObjectId } }
-    console.log(lastHourObjectId)
+    // console.log(lastHourObjectId)
 
     async function report(db, table, data) {
         try {
@@ -34,7 +38,6 @@ const job = new CronJob('0 * * * *', async () => {
             // perform actions on the collection object
             const docs = await client.db(db).collection(table).find(query).toArray();
 
-
             const data = {
                 collection: collection,
                 count: count,
@@ -42,7 +45,7 @@ const job = new CronJob('0 * * * *', async () => {
                 average: docs.reduce((a, b) => a + b.salesPrice, 0) / docs.length
             }
 
-            await discorder(process.env.DISCORD_SAMO_WEBHOOK, data)
+            await discorder(process.env.DISCORD_OKAY_BEARS_WEBHOOK, data)
 
         } finally {
             await client.close();
@@ -52,5 +55,4 @@ const job = new CronJob('0 * * * *', async () => {
 });
 
 job.start();
-
-
+console.log(new Date(job.nextDate()))
