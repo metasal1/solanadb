@@ -7,11 +7,9 @@ export default async function postToDiscord(webhook, data) {
 
     try {
 
-        const embed = {
-            title: `${data.collection} had ${data.count} sales last hour`,
-            // description: 'This is an example embed with styling.',
-            color: 0xff0000, // Hex color code (red)
-            fields: [
+        var fields = []
+        if (data.count > 0) {
+            fields = [
                 {
                     name: 'Sales',
                     value: data.count,
@@ -27,9 +25,14 @@ export default async function postToDiscord(webhook, data) {
                     value: `${data.volume.toFixed(2)} SOL`,
                     inline: true,
                 }
-            ],
+            ];
+        }
+        const embed = {
+            title: `${data.collection} had ${data.count} sales last hour`,
+            color: 0xff0000, // Hex color code (red),
+            fields: fields,
             footer: {
-                text: 'On-chain data brought to you by nftmate_',
+                text: 'On-chain data brought to you by @nftmate_',
             },
         };
 

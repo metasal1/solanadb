@@ -45,7 +45,7 @@ const job = new CronJob(cron, async () => {
                 average: docs.reduce((a, b) => a + b.salesPrice, 0) / docs.length
             }
 
-            await discorder(process.env.DISCORD_OKAY_BEARS_WEBHOOK, data)
+            await discorder(process.env.DISCORD_MADLADS_WEBHOOK, data)
 
         } finally {
             await client.close();

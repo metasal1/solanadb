@@ -1351,3 +1351,59 @@ There are currently 1 documents in the Lily collection
 }
 Posted to Discord successfully: 
 Posted to Discord successfully: 
+6/2/2023, 8:00:00 PM
+new ObjectId("6479af900000000000000000")
+6/2/2023, 8:00:00 PM
+new ObjectId("6479af900000000000000000")
+There are currently 2 documents in the Lily collection
+There are currently 1 documents in the Mad Lads collection
+{
+  embeds: [
+    {
+      title: 'Lily | Sales in the last hour',
+      color: 16711680,
+      fields: [Array],
+      footer: [Object]
+    }
+  ]
+}
+{
+  embeds: [
+    {
+      title: 'Mad Lads | Sales in the last hour',
+      color: 16711680,
+      fields: [Array],
+      footer: [Object]
+    }
+  ]
+}
+Posted to Discord successfully: 
+Posted to Discord successfully: 
+6/2/2023, 9:15:29 PM
+6/2/2023, 9:15:29 PM
+new ObjectId("6479c1410000000000000000")
+new ObjectId("6479c1410000000000000000")
+There are currently 3 documents in the Mad Lads collection
+There are currently 2 documents in the Lily collection
+{
+  embeds: [
+    {
+      title: 'Mad Lads | Sales in the last hour',
+      color: 16711680,
+      fields: [Array],
+      footer: [Object]
+    }
+  ]
+}
+{
+  embeds: [
+    {
+      title: 'Lily | Sales in the last hour',
+      color: 16711680,
+      fields: [Array],
+      footer: [Object]
+    }
+  ]
+}
+Posted to Discord successfully: 
+Posted to Discord successfully: 
