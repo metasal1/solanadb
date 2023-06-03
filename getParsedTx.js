@@ -12,6 +12,11 @@ const solana = new Connection(endpoint, 'confirmed');
 export default async (tx) => {
     const sig = await solana.getParsedTransaction(tx, { maxSupportedTransactionVersion: 0 });
     const mints = jsonpath.query(sig, '$..mint');
-    const mint = mints[0];
-    return mint;
+
+    try {
+        const mint = mints[0];
+        return mint;
+    } catch (error) {
+        console.log('error', error)
+    }
 }
