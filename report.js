@@ -1,7 +1,6 @@
 import { MongoClient, ServerApiVersion, ObjectId } from 'mongodb';
 import dotenv from 'dotenv';
 import discorder from './discorder.js';
-import { CronJob } from 'cron';
 
 dotenv.config();
 
@@ -14,16 +13,9 @@ const client = new MongoClient(uri, {
     }
 });
 
-// every hour
-var cron = process.argv[2] || '0 * * * *'
-
-if (cron === 'now') {
-    cron = '0/5 * * * * *'
-}
-const job = new CronJob(cron, async () => {
-
+export default async (coll, webhook) => {
     // console.log(new Date().toLocaleString())
-    const collection = 'Okay Bears'
+    const collection = coll
     const lastHourObjectId = ObjectId.createFromTime(Math.floor(Date.now() / 1000) - 3600);
 
     const query = { collection: collection, _id: { $gte: lastHourObjectId } }
@@ -45,14 +37,12 @@ const job = new CronJob(cron, async () => {
                 average: docs.reduce((a, b) => a + b.salesPrice, 0) / docs.length
             }
 
-            await discorder(process.env.DISCORD_OKAY_BEARS_WEBHOOK, data)
+            await discorder(webhook, data)
 
         } finally {
-            await client.close();
+            // await client.close();
         }
     }
     report('nft', 'sales')
-});
 
-job.start();
-console.log(new Date(job.nextDate()))
+}
